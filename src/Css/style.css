@@ -6,6 +6,7 @@ body {
     background-image: url(../imagens/capa.png), url(../imagens/ruido.png),
                       linear-gradient(50deg, #ff4169, #7c26f8);
     background-attachment: fixed;
+    overflow-x: hidden;
 }
 
 .nav-link {
@@ -23,7 +24,7 @@ body {
     margin: 12px 15px;
 }
 
-h1 {
+#conteudo h1 {
     font-size: 3em;
     letter-spacing: -0.05em;
     margin-bottom: 50px;
@@ -46,4 +47,34 @@ h1 {
 
 .text-roxo {
     color: #7c26f8;
+}
+
+.rotacionar {
+    margin: 1rem;
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
+
+#recursos p{
+    color: #fff;
+}
+
+#recursos h1, h2 {
+    color: #9bf0e1;
+}
+
+footer {
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover {
+    color: #1ED760;
 }
